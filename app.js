@@ -10,8 +10,8 @@ const port = 8080;
 
 //Mock Data
 var blocks = [];
-let block_1 = {"height":"0","body":"Udacity Blockchain Developer", "time": new Date().getTime().toString().slice(0,-3)};
-let block_2 = {"height":"1","body":"Udacity Blockchain Developer Rock!", "time": new Date().getTime().toString().slice(0,-3)};
+let block_1 = {"height":"0","body":"Udacity Blockchain Developer", "time": 1538509789};
+let block_2 = {"height":"1","body":"Udacity Blockchain Developer Rock!", "time": 1538509789};
 blocks.push(block_1);
 blocks.push(block_2);
 
